@@ -16,6 +16,8 @@ services:
         value: HS256
       - key: ACCESS_TOKEN_EXPIRE_MINUTES
         value: 1440
+      - key: PYTHON_VERSION
+        value: 3.11.9
 databases:
   - name: dot-db
     databaseName: dot
